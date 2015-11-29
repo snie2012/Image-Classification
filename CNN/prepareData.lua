@@ -1,3 +1,5 @@
+require 'torch'
+
 function prepareData(batchNum)
     local trsize = 10000*(batchNum+1)
     local tesize = 10000
